@@ -165,7 +165,7 @@ export default function Hero() {
           <div className="hero-right">
             <div className="hero-img-wrapper">
               <img
-                src="/images/1.webp"
+                src="/images/hero.webp"
                 alt="BJJ Training at Luiz Paulo West Bridgewater"
                 fetchPriority="high"
                 loading="eager"
@@ -257,7 +257,7 @@ export default function Hero() {
             content: '';
             position: absolute;
             inset: 0;
-            background-image: url('/images/1.webp');
+            background-image: url('/images/hero.webp');
             background-size: cover;
             background-position: center 30%;
             z-index: 0;

@@ -9,7 +9,7 @@ interface ClassCard {
 }
 
 const cards: ClassCard[] = [
-  { title: ['KIDS', 'JIU-JITSU'],   image: '/images/programs/kids.webp',   imagePosition: 'center 20%' },
+  { title: ['KIDS', 'JIU-JITSU'],   image: '/images/kids-program.webp',   imagePosition: 'center 20%' },
   { title: ['ADULTS', 'JIU-JITSU'], image: '/images/programs/adults.webp', imagePosition: 'center 25%' },
 ];
 

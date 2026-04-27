@@ -67,7 +67,7 @@ export default function HowToSchedule() {
     >
       {/* Background image */}
       <img
-        src="/images/programs/adults.webp"
+        src="/images/how-to-get.webp"
         alt=""
         aria-hidden="true"
         loading="lazy"
