@@ -211,13 +211,14 @@ export default function Hero() {
           padding-bottom: 40px;
         }
         .hero-right {
-          display: flex;
-          align-items: stretch;
-          padding-bottom: 80px;
-          box-sizing: border-box;
+          position: relative;
         }
         .hero-img-wrapper {
-          flex: 1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 80px;
           border-radius: 0 0 20px 20px;
           overflow: hidden;
         }
