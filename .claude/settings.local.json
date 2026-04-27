@@ -22,7 +22,13 @@
       "Bash(cp \"unnamed.png\" \"member1.png\")",
       "Bash(cp \"unnamed \\(1\\).png\" \"member2.png\")",
       "Bash(cp \"unnamed \\(2\\).png\" \"member3.png\")",
-      "Bash(node scripts/optimize-images.mjs)"
+      "Bash(node scripts/optimize-images.mjs)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)"
     ]
   }
 }

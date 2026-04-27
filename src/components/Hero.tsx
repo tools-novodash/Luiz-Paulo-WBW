@@ -123,10 +123,9 @@ export default function Hero(_props: HeroProps) {
       >
         {/* Background Image — LCP element */}
         <picture>
-          <source srcSet="/images/1.webp" type="image/webp" />
           <img
-            src="/images/1.jpg"
-            alt="BJJ Training at Luiz Paulo Norwood academy"
+            src="/images/1.webp"
+            alt="BJJ Training at Luiz Paulo West Bridgewater academy"
             fetchPriority="high"
             loading="eager"
             decoding="sync"
