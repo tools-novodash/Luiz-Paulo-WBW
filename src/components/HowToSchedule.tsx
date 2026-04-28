@@ -80,11 +80,11 @@ export default function HowToSchedule() {
           height: '100%',
           objectFit: 'cover',
           objectPosition: 'center 25%',
-          opacity: 0.35,
+          opacity: 0.55,
           zIndex: 0,
         }}
       />
-      <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.75)', zIndex: 1 }} />
+      <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.55)', zIndex: 1 }} />
 
       <div style={{ position: 'relative', zIndex: 2, maxWidth: '1280px', margin: '0 auto' }}>
         {/* Header row */}
