@@ -28,7 +28,16 @@
       "Bash(git checkout *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git branch *)"
+      "Bash(git branch *)",
+      "Read(//d/DOCUMENTOS/NovoDash/GB Charleston/**)",
+      "Read(//d/DOCUMENTOS/NovoDash/**)",
+      "Read(//c/Users/Adrian_PC/.claude/projects/d--DOCUMENTOS-NovoDash-Luiz-Paulo-West-Bridgewater/**)",
+      "Bash(cwebp -version)",
+      "Bash(magick -version)",
+      "Bash(ffmpeg -version)",
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(node -e \"console.log\\(process.version\\)\")",
+      "Bash(node -e ' *)"
     ]
   }
 }
