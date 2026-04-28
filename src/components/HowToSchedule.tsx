@@ -141,6 +141,9 @@ export default function HowToSchedule() {
               cursor: 'pointer',
               transition: 'transform 0.2s ease, box-shadow 0.2s ease',
               whiteSpace: 'nowrap',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = 'scale(1.04)';

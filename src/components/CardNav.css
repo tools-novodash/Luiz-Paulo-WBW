@@ -126,7 +126,7 @@
 .nav-card-link-icon { width: 14px; height: 14px; flex-shrink: 0; }
 
 @media (max-width: 768px) {
-  .card-nav-container { width: 92%; top: 1em; }
+  .card-nav-container { width: auto; left: 4%; right: 4%; transform: none; top: 1em; }
   .card-nav-top { padding: 0.5rem 1rem; }
   .hamburger-menu { order: 2; }
   .logo-container { position: static; transform: none; order: 1; }

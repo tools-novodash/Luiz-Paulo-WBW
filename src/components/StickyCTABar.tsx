@@ -46,6 +46,10 @@ export default function StickyCTABar() {
             border: 'none',
             cursor: 'pointer',
             textTransform: 'uppercase',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '6px',
           }}
         >
           Book Your Free Trial Class <ArrowUpRight size={14} strokeWidth={2.5} style={{ marginLeft: '4px' }} />

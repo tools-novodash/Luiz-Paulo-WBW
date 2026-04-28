@@ -64,6 +64,10 @@ export default function JiuJitsuForEveryone() {
               border: 'none',
               cursor: 'pointer',
               transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              whiteSpace: 'nowrap',
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = 'scale(1.04)';
