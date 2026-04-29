@@ -2,7 +2,6 @@ import { ModalProvider } from './hooks/ModalContext';
 import { useUTMs } from './hooks/useUTMs';
 import { useScrollDepth } from './hooks/useScrollDepth';
 
-import Header from './components/Header';
 import Hero from './components/Hero';
 import JiuJitsuForEveryone from './components/JiuJitsuForEveryone';
 import Reviews from './components/Reviews';
@@ -16,7 +15,7 @@ import FAQ from './components/FAQ';
 import MapSection from './components/MapSection';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
-import StickyCTABar from './components/StickyCTABar';
+
 
 function AppInner() {
   useUTMs();
@@ -25,7 +24,6 @@ function AppInner() {
   return (
     <>
       <a href="#main" className="skip-link">Skip to main content</a>
-      <Header />
       <main id="main">
         <Hero />
         <JiuJitsuForEveryone />
@@ -41,7 +39,6 @@ function AppInner() {
       </main>
       <Footer />
       <BookingModal />
-      <StickyCTABar />
     </>
   );
 }

@@ -10,21 +10,17 @@ export default function Hero() {
         <div className="hero-grid">
           {/* Left — text */}
           <div className="hero-left">
-            <p
+            <img
               data-hero-animate=""
+              src="/icons/logo.svg"
+              alt="Luiz Paulo BJJ"
               style={{
-                fontFamily: 'Inter, sans-serif',
-                fontSize: '11px',
-                fontWeight: 600,
-                letterSpacing: '0.22em',
-                textTransform: 'uppercase',
-                color: 'var(--color-text-muted)',
-                marginBottom: '16px',
+                height: '72px',
+                width: 'auto',
+                marginBottom: '28px',
                 animationDelay: '0.1s',
               }}
-            >
-              // West Bridgewater, MA
-            </p>
+            />
 
             <h1
               data-hero-animate=""
@@ -63,6 +59,7 @@ export default function Hero() {
             {/* CTA buttons */}
             <div
               data-hero-animate=""
+              className="hero-cta-row"
               style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginBottom: '40px', animationDelay: '0.4s' }}
             >
               <button
@@ -94,38 +91,12 @@ export default function Hero() {
               >
                 CLAIM YOUR FREE TRIAL <ArrowUpRight size={14} strokeWidth={2.5} style={{ marginLeft: '4px' }} />
               </button>
-              <a
-                href="#classes"
-                style={{
-                  fontFamily: 'Inter, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '14px',
-                  color: '#1A1A1A',
-                  border: '1px solid rgba(0,0,0,0.2)',
-                  padding: '14px 24px',
-                  borderRadius: '40px',
-                  textDecoration: 'none',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  transition: 'background-color 0.2s ease, border-color 0.2s ease',
-                  whiteSpace: 'nowrap',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(0,0,0,0.04)';
-                  e.currentTarget.style.borderColor = 'rgba(0,0,0,0.4)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'transparent';
-                  e.currentTarget.style.borderColor = 'rgba(0,0,0,0.2)';
-                }}
-              >
-                Learn more
-              </a>
             </div>
 
             {/* Inline stats */}
             <div
               data-hero-animate=""
+              className="hero-stats-row"
               style={{ display: 'flex', gap: '0', alignItems: 'center', animationDelay: '0.5s' }}
             >
               {[
@@ -210,7 +181,8 @@ export default function Hero() {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding-top: 88px;
+          align-items: flex-start;
+          padding-top: 64px;
           padding-bottom: 40px;
         }
         .hero-right {
@@ -246,9 +218,15 @@ export default function Hero() {
           .hero-left {
             position: static;
             z-index: auto;
-            padding: 96px 24px 32px;
+            padding: 48px 24px 32px;
             justify-content: flex-start;
+            align-items: center;
+            text-align: center;
           }
+          .hero-left img { align-self: center; }
+          .hero-left p { text-align: center; }
+          .hero-cta-row { justify-content: center !important; }
+          .hero-stats-row { justify-content: center !important; }
           .hero-right {
             display: block;
             position: relative;
